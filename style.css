@@ -6,28 +6,38 @@
 body{
     background-color: rgb(13, 25, 43);
 }
+.main-container{
+    margin-left:150px;
+    margin-right:150px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap:wrap;
+}
 .container{
-    border-radius: 30px;    
-    margin:150px 0px 0px 580px;
+    margin-top:50px;
+    margin-right: 10px;
+    margin-left:10px;
+    border-radius: 10px;    
     background-color: rgb(20, 37, 61);
     height:600px;
-    width:350px;
+    width:300px;
 }
 .equillbrium{
     border-radius: 10px;
     margin: 20px;
-    height: 300px;
-    width: 310px;
+    height: 250px;
+    width: 250px;
 }
 .heading {
     padding-left:20px;
-    padding-bottom: 30px;
+    padding-bottom: 40px;
     color:white;
   font-size: 10px;
 }
 .para{
-    padding-left: 20px;
-    padding-bottom: 30px;
+    font-size:15px;
+    padding-left: 15px;
+    padding-bottom: 40px;
     color:  rgb(72, 97, 133);
 }
 .value-time,.time{
@@ -37,11 +47,14 @@ body{
 .value{
     display: flex;
     color: rgb(83, 251, 251);
+    font-size:15px;
     flex: 1;
     padding-left:20px;
-    padding-bottom: 30px;
+    padding-bottom: 15px;
 }
 .ethereum{
+    height:15px;
+    width: 10px;
     padding-right: 7px;
 }
 .clock{
@@ -51,6 +64,7 @@ body{
     width:20px;
 }
 .time{
+    font-size:15px;
     color:rgb(72, 97, 133);
 }
 hr{
@@ -62,14 +76,15 @@ hr{
     display: flex;
 }
 .creator-pic{
-    padding-left:30px;
-    height:40px;
-    width: 40px;
+    padding-left:20px;
+    padding-top: 10px;
+    height:30px;
+    width: 30px;
 }
 .credits{
     padding-left: 10px;
     font-size:15px;
-    padding-top: 13px;
+    padding-top: 15px;
     display: flex;
     color:rgb(72, 97, 133) ;
 }
