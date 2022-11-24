@@ -1,0 +1,78 @@
+*{
+    font-family:  'Space Mono', monospace;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(13, 25, 43);
+}
+.container{
+    border-radius: 30px;    
+    margin:150px 0px 0px 580px;
+    background-color: rgb(20, 37, 61);
+    height:600px;
+    width:350px;
+}
+.equillbrium{
+    border-radius: 10px;
+    margin: 20px;
+    height: 300px;
+    width: 310px;
+}
+.heading {
+    padding-left:20px;
+    padding-bottom: 30px;
+    color:white;
+  font-size: 10px;
+}
+.para{
+    padding-left: 20px;
+    padding-bottom: 30px;
+    color:  rgb(72, 97, 133);
+}
+.value-time,.time{
+    display: flex;
+    flex: 1;
+}
+.value{
+    display: flex;
+    color: rgb(83, 251, 251);
+    flex: 1;
+    padding-left:20px;
+    padding-bottom: 30px;
+}
+.ethereum{
+    padding-right: 7px;
+}
+.clock{
+    padding-left:10px;
+    padding-right: 5px;
+    height:20px;
+    width:20px;
+}
+.time{
+    color:rgb(72, 97, 133);
+}
+hr{
+    margin: 10px 30px;
+    color:rgb(72, 97, 133);
+    outline: none;
+}
+.creator{
+    display: flex;
+}
+.creator-pic{
+    padding-left:30px;
+    height:40px;
+    width: 40px;
+}
+.credits{
+    padding-left: 10px;
+    font-size:15px;
+    padding-top: 13px;
+    display: flex;
+    color:rgb(72, 97, 133) ;
+}
+.name{
+    color: rgb(255, 255, 255);
+}
